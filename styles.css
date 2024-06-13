@@ -1,0 +1,178 @@
+* {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+section {
+    max-width: 800px;
+    border: 2px solid darkgray;
+    margin: 30px auto;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+
+/* Colours Section */
+
+.colours h4 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.colours p {
+    font-size: 14.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px;
+    border: solid 0.5px darkgrey;
+    margin: 5px .25px;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+
+
+/* Primary Block Colors */
+
+.primary_colour_blocks {
+    text-align: left;
+    margin: 5px;
+}
+
+p.white {
+    background-color: #FFF;
+}
+
+p.black {
+    background-color: #000;
+    color: #FFF;
+}
+
+p.dark_gray {
+    background-color: #333;
+    color: lightgray;
+}
+
+
+
+/* Accent Colors */
+
+.accent_colour_blocks {
+    text-align: left;
+    margin: 5px;
+}
+
+p.electric_blue {
+    background-color: #007AFF;
+}
+
+p.cool_grey {
+    background-color: #8E8E93;
+}
+
+p.bright_red {
+    background-color: #FF3B30;
+}
+
+
+
+/* Fonts Section */
+
+.font_block {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+
+
+/* Font Styles */
+
+.font_title {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.Lora p {
+    font-family: 'Lora';
+}
+
+.Poppins p {
+    font-family: 'Poppins';
+}
+
+.Merriweather p {
+    font-family: 'Merriweather'
+}
+
+
+
+/* Text Styles Section */
+
+.style_block {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 30px;
+    vertical-align: middle;
+
+}
+
+.style_block p {
+    margin-top: -25px;
+}
+
+.styles span {
+    font-weight: bold;
+}
+
+.alternate {
+    margin-top: 15px !important;
+    
+}
+
+
+
+/* Styles */
+
+h1.main_heading {
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2.sub_heading {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p.body_text {
+    font-family: 'Merriweather';
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+
+}
+
+p.links {
+    font-family: 'Lora';
+    font-size: 16px;
+    font-weight: 400;
+    color: #007AFF;
+}
